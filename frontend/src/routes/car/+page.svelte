@@ -8,7 +8,7 @@
     const getCarData = async () => {
         try {
             const response = await axios.get(
-                "http://localhost:3000/dealer/car"
+                "https://indeed-assignment.vercel.app/dealer/car"
             );
             console.log(response.data.data);
             carData = response.data.data;

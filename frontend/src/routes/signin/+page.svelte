@@ -23,7 +23,7 @@
             const createUser = async () => {
                 try {
                     const response = await axios.post(
-                        "http://localhost:3000/user/signup",
+                        "https://indeed-assignment.vercel.app/user/signup",
                         {
                             email: email,
                             password: password,
@@ -50,7 +50,7 @@
             const createUser = async () => {
                 try {
                     const response = await axios.post(
-                        "http://localhost:3000/dealer/signup",
+                        "https://indeed-assignment.vercel.app/dealer/signup",
                         {
                             email: email,
                             password: password,

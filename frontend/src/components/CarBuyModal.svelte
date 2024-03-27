@@ -26,7 +26,7 @@
 
         try {
             const response = await axios.post(
-                "http://localhost:3000/user/order",
+                "https://indeed-assignment.vercel.app/user/order",
                 {
                     token,
                     carId,

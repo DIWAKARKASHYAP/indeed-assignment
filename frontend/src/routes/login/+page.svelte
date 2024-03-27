@@ -22,7 +22,7 @@
             const loginUser = async () => {
                 try {
                     const response = await axios.post(
-                        "http://localhost:3000/user/login",
+                        "https://indeed-assignment.vercel.app/user/login",
                         {
                             email: email,
                             password: password,
@@ -47,7 +47,7 @@
             const loginUser = async () => {
                 try {
                     const response = await axios.post(
-                        "http://localhost:3000/dealer/login",
+                        "https://indeed-assignment.vercel.app/dealer/login",
                         {
                             email: email,
                             password: password,

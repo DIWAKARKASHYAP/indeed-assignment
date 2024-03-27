@@ -9,7 +9,7 @@
 
         try {
             const response = await axios.post(
-                "http://localhost:3000/dealer/car",
+                "https://indeed-assignment.vercel.app/dealer/car",
                 {
                     type,
                     name,

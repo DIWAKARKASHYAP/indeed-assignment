@@ -11,7 +11,7 @@
 
         try {
             const response = await axios.get(
-                "http://localhost:3000/dealer/sold",
+                "https://indeed-assignment.vercel.app/dealer/sold",
                 {
                     headers: {
                         Authorization: token,

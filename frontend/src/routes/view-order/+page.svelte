@@ -10,7 +10,7 @@
 
         try {
             const response = await axios.get(
-                "http://localhost:3000/dealer/order",
+                "https://indeed-assignment.vercel.app/dealer/order",
                 {
                     headers: {
                         Authorization: token,
@@ -32,7 +32,7 @@
 
         try {
             const response = await axios.post(
-                "http://localhost:3000/dealer/order",
+                "https://indeed-assignment.vercel.app/dealer/order",
 
                 {
                     carId,
