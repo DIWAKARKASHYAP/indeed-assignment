@@ -1,0 +1,74 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.diffBorder {
+    z-index: -1;
+    border-radius: 28% 72% 77% 23% / 25% 69% 31% 75%;
+    animation: move 18s linear infinite;
+}
+
+@keyframes move {
+    0% {
+        /* transform: rotate(0deg); */
+        border-radius: 80% 20% 27% 73% / 30% 64% 36% 70%;
+    }
+    25% {
+        /* transform: rotate(360deg); */
+        border-radius: 74% 26% 62% 38% / 30% 10% 90% 70%;
+    }
+
+    50% {
+        /* transform: rotate(360deg); */
+        border-radius: 47% 53% 23% 77% / 43% 10% 90% 57%;
+    }
+
+    75% {
+        /* transform: rotate(360deg); */
+        border-radius: 14% 86% 46% 54% / 84% 60% 40% 16%;
+    }
+
+    100% {
+        /* transform: rotate(0deg); */
+        border-radius: 80% 20% 27% 73% / 30% 64% 36% 70%;
+    }
+}
+
+.projectCard {
+    width: 340px;
+    height: 470px;
+}
+
+.blockchainProjectCard {
+    width: 340px;
+    height: 280px;
+}
+
+.rotate-border1 {
+    top: -50%;
+    left: -50%;
+    /* width: 300px;
+  height: 300px; */
+    transform-origin: bottom right;
+    /* z-index: +4; */
+    animation: rotation 8s linear infinite;
+}
+
+.rotate-border2 {
+    top: 50%;
+    left: 50%;
+    /* width: 300px;
+  height: 300px; */
+    transform-origin: top left;
+    /* transform: rotate(); */
+    /* z-index: +4; */
+    animation: rotation 8s linear infinite;
+}
+
+@keyframes rotation {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
